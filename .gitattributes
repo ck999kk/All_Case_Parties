@@ -1,0 +1,15 @@
+# Normalize line endings and treat binary files
+* text=auto
+*.html text
+*.htm text
+*.md text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.docx binary
+*.doc binary
+
+# Ensure CRLF warnings are reduced
+*.html text eol=lf
