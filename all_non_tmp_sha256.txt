@@ -1,0 +1,241 @@
+81377002c736dd5c76e3498d0bbaa66b75ed4c01058e4454e1d66ac80d525303  ./.codacy/.gitignore
+a833e2b03af5150491ff490cedb5bdff901ba7d4a28924c811e6a936b9399eed  ./.codacy/cli-config.yaml
+1bb82234e74e5385ae6a6e93cb61cbc3356fdffdeb36f907686b88679c0cd82c  ./.codacy/cli.sh
+4dc2f9d12386b88f004f73b8685f2d316f9b92746087ef5c6ebbd569a9fc4cc9  ./.codacy/codacy.yaml
+ba43f33d1007c17b7596e6f9c3c7a06711df4fad7a4ecfa37d381e3a372c58ae  ./.codacy/tools-configs/analysis_options.yaml
+d2061893501f1e425dd00dc8028f4bf0ee1bac705f60bdd3328c853d65b5dd47  ./.codacy/tools-configs/eslint.config.mjs
+bafc80490a7688ac32ca6daf37cc5e5b45acab8483ce48b194852766b09b82e1  ./.codacy/tools-configs/languages-config.yaml
+22f70f24bfb7498aed518653e08f7b861ef4f7c35380732bd320a7a3d732dc39  ./.codacy/tools-configs/lizard.yaml
+e8db445dedb9916082f26dd7fbff172eac028df481daa9d1eb07f54c2cc368dd  ./.codacy/tools-configs/pylint.rc
+33b1766d160328e525376212af104820049b93460598452a0874493e598a6a6c  ./.codacy/tools-configs/revive.toml
+20a0d668f8998bc167b1b23e798f5efbdf29dc8ea016adda0115b67d07cfa512  ./.codacy/tools-configs/ruleset.xml
+f93625b3743d00fa26dc294a303d2f606c0d2e6906d60915b57a500d2407617f  ./.codacy/tools-configs/semgrep.yaml
+11f651209bdd9f9dad62d567f43ff615ab5b1d099f9eb7c4212f8549fbe7b1b3  ./.codacy/tools-configs/trivy.yaml
+6fb3299bbc1d81dde167e3010e123fa94041b8ef85e82c0a8669eb42ca18edbf  ./.github/instructions/codacy.instructions.md
+9d713a04935c6e8d98cc7686aab2ce63b45f9ee78229969f4596d48906d74e36  ./.gitignore
+ce7270a7102e9f0cc874c55c1cd3afd81c31b121c2e9c1b1e3c99234346233cf  ./all_non_tmp_sha256.csv
+1d60e25efb0ba4ba6f9f3494230e595b6602d65efa713e9612ebe16abc116389  ./all_non_tmp_sha256.txt
+395702aa7ba40c5bb64da2dc8fb0a15138beb21c169221ac37e7bffd7f0123c9  ./compute_shas.sh
+e77c0d36f672d1782fb13856fbaf67930b6f53f963c587f59ba5e95320be2526  ./index.html
+c5051f95342f779a38bd52d8cdc9da4728eb702f82881aa720e34ca045cf3f55  ./messages/20250207-Welcome to Areal Property – Your New Property Mana-111.html
+98df8b015b2e707d4aaf640de9dd24fde6485786246760109a03a2354b3c63e9  ./messages/20250225-Receipt of payment for 1803_243 Franklin St, Melbo-110.html
+ece726c2a8505de006d12e4b37592c28c2b6c83de7dce31029045c6f47cff7f7  ./messages/20250325-Areal monthly after-hours trades list update-109.html
+0b044279fde397b93e337e33b71b33d33eb06396bed4661fc08f8bf5cfba2163  ./messages/20250325-Receipt of payment for 1803_243 Franklin St, Melbo-108.html
+d512e99e2a780e3ff220a1eb37e4fd791003e3d74e22506322b78c3ea3b97a62  ./messages/20250401-Areal monthly after-hours trades list update-107.html
+9e0668657729136b34cf623f7f44d78ffae238afad9a9e5a644c55f1858ea3a2  ./messages/20250402-Non-Urgent Maintenance Request (1803_243 Franklin -104.html
+0af81dadbf61bdbffd3897d00d4e2fb3c3ecf75c43079dd69fc7fea666f2bed6  ./messages/20250408-Fwd_ Non-Urgent Maintenance Request (1803_243 Fran-105.html
+971c228e7ae13d1003c3553b27f4f63a654535a29f317c9e94a207d2f4951e63  ./messages/20250409-Re_Non-Urgent Maintenance Request (1803_243 Frankl-106.html
+1e9c8a2804f50ee50f6aa3fea35abb0a888c4e3e5eb537e3ba90ab0ec49a80cd  ./messages/20250416-Re_Urgent_ Water Damage on Bedroom Wall (Unit 1803-101.html
+1464f10195095b39c4306695d68f95009267b349e67fbdde3e22d42325253a73  ./messages/20250416-Re_Urgent_ Water Damage on Bedroom Wall (Unit 1803-102.html
+c4d8280b382a397ecbe4a04c87ce63c3f9f9c83bb415c8e3d045a0cf8fa159eb  ./messages/20250416-Urgent_ Water Damage on Bedroom Wall (Unit 1803)-100.html
+4538f534ed371ddd5dec6f4e5d5682c12e6b1a550d867a223d24e3a555510f81  ./messages/20250420-Automatic reply_ Urgent_ Water Damage on Bedroom W-99.html
+5cf12938ffd26e1f667fffde721c775e009ee00bb2a3c124489e8653098a134b  ./messages/20250420-Re_Urgent_ Water Damage on Bedroom Wall (Unit 1803-103.html
+33a21a9b41510c6fff8e9bf1a7f741ebf17c73d9d6c6e9badf90977a43e4537b  ./messages/20250423-Receipt of payment for 1803_243 Franklin St, Melbo-98.html
+34b0d70e39d4823148f6a7700a146c6a1baa46e9d15dd84a3c9cd4ed73e944e1  ./messages/20250423-Second Follow-up_ Urgent Water Damage Escalation –-97.html
+01187929884865da96ffdddeab2841dc188b63f2f964b337632911fb6748bb2a  ./messages/20250424-Re_FW_ Second Follow-up_ Urgent Water Damage Escal-95.html
+f27656786c620056e583d2b5be0338a9e5768005f38cc224491d829806fac8f4  ./messages/20250424-Routine inspection scheduled for 1803_243 Franklin-96.html
+7b0afd02caf0ae1ab0c74ae7f3214212b977a449e0345e03112f5920bec2f21a  ./messages/20250428-Update on Leak Inspection-1803_243 Franklin-94.html
+9a45d79ac382c19af9a8be4c60f68e268c7d57256f961340d0bef725fa4e4cb3  ./messages/20250428-Update on Leak Issue at 1803_ 243 Franklin-93.html
+b0aa3f3917a254171d8902a07ca37bfcf7f1d990fd25712fb3223e65e609ec28  ./messages/20250430-Routine inspection for 1803_243 Franklin St, Melbo-92.html
+13b68cd156ba81eb9dbeb07c6f4d632592aa23e2f85aace37b9d05d36a18cda2  ./messages/20250501-Areal monthly after-hours trades list update-91.html
+3cbb39a460a49d2d1f138ff8fc2f6cfc5e2c4526caaf8b47de7e3baa06cfc836  ./messages/20250502-Leaking Repaired Confirmation  - 1803_243 Franklin-90.html
+73daf8b1a3d867fd3fe5e00d618f37a97f761af60fd19d437d8009af485e8c46  ./messages/20250509-Follow-up on Wall and Carpet Damage – 1803_243 Fra-87.html
+2d49c0d02dee4c96bda3abe2e58ccf7d81d99a5ec615b387d28023b87b98f902  ./messages/20250509-Re_Follow-up on Wall and Carpet Damage – 1803_243 -88.html
+4b38c5b85e12a09481b95a9e2568bfeb5279cc6ce8cc2305054216d9c3e1c849  ./messages/20250510-Re_Follow-up on Wall and Carpet Damage – 1803_243 -89.html
+205eb41d867f4d4d168cde4ae048f16f362108e483d6dea71825ed59dca4e3f9  ./messages/20250512-Re_FW_ Follow-up on Wall and Carpet Damage – 1803_-78.html
+61f9022c8025f912e34dc8b0df728cd9d3b9a4d22606013922db327e3f9a206d  ./messages/20250513-Re_PS628109B - R&M - Water Leak Lot 1803A - 243, 2-86.html
+34399c3d1d22a0a71cf02f9db0826fe30f0b643580b68498219f0685643b4a37  ./messages/20250526-Receipt of payment for 1803_243 Franklin Street, M-85.html
+45f1f30cc28a35ccda5ea1d414251d89bb26fcd1ae00670727706a36366eb405  ./messages/20250529-Leak Rectification Works – Access Required-84.html
+ab01f1a0fff203d605813f5cc098be9a66287f6174feb3eb09243d863bf9fc02  ./messages/20250602-Areal monthly after-hours trades list update-83.html
+6f1b5240c6e1440d8bdb1639d3d836070634f419dddd4ee20db5d472339535d1  ./messages/20250602-Re_FW_ Follow-up on Wall and Carpet Damage – 1803_-79.html
+0f962eb8a82565a1c9e727f9364205588532ab8444cbf10ca2bfa3ae981cd435  ./messages/20250603-Re_FW_ Follow-up on Wall and Carpet Damage – 1803_-80.html
+fb7e66660656b290674688eece628e8b9ff190e3269f4bc08dd58185bc56c101  ./messages/20250603-Re_FW_ Follow-up on Wall and Carpet Damage – 1803_-81.html
+c112234f7e360a516d9b586a438729d1f9456a8b5eb586f899e7b7da993c3323  ./messages/20250605-Re_FW_ Follow-up on Wall and Carpet Damage – 1803_-82.html
+ca7947390136515cc34b3f448b6731d8b73d4d6a9bb45bb75d56677c6cb7316a  ./messages/20250606-Follow-up – Formal Demand & Statement Regarding Un-63.html
+1b0ca594dfbb8bfc92a035a9f2b7bffa49e96738cfc8cef420b653c45aa6e636  ./messages/20250606-Re_Follow-up – Formal Demand & Statement Regarding-64.html
+36be30a68832580932228b1c1e8b7085094e028eb81f71d87f9eae57b2a805e0  ./messages/20250606-Re_Follow-up – Formal Demand & Statement Regarding-65.html
+d61eee4129eb86c744fc5c8ac0793326fdc908e81fbd743695894c042c2db297  ./messages/20250606-You have reached us outside of business hours-77.html
+4af3536b8572ceed395d836aea6d82fa045fefb48982741acce3b35d631cd6f5  ./messages/20250610-Re_Follow-up – Formal Demand & Statement Regarding-66.html
+f8036e97731829c28e49a84a72966c219fde7772b6f619b183225a57cd2d6fe2  ./messages/20250610-Re_Follow-up – Formal Demand & Statement Regarding-67.html
+424c824e8557b8cb5e48629eb6a8444dc61c12813180279473ac0a020dc84516  ./messages/20250611-Re_Rent Adjustment – Request for Clarification and-76.html
+a83060304821a9db9910463db5ec4f16e495809410e18b05d36a28fd80cad288  ./messages/20250611-You have reached us outside of business hours-75.html
+4c9182b88aac19ccb11654109cc68e0ef70305ee15cf3c0cadeabfeb6bd6a540  ./messages/20250612-Re_Follow-up – Formal Demand & Statement Regarding-68.html
+ec876e4c5259eed014a05b8f354dd743adf7e14a4e187c3a8768be2801de4819  ./messages/20250613-Re_Follow-up – Formal Demand & Statement Regarding-69.html
+211aa94eb65cace311880be3d5dc5a35806e5f6c7b15a2c92fa9a15839c03153  ./messages/20250613-Re_Follow-up – Formal Demand & Statement Regarding-70.html
+1a008328233be5c068567c895e43d9f0e11c3a7c47332a411fbe537b6666bde1  ./messages/20250613-You have reached us outside of business hours-74.html
+ec3e7feffb7ba2e9a5a7836457c3edb64513df9f4309dfa446ab673a90b5c563  ./messages/20250616-Re_Follow-up – Formal Demand & Statement Regarding-71.html
+334c3afb45403db96fa3f9afadac0f0bb82a54e6144aa49444fcf391aec013dc  ./messages/20250616-Re_Follow-up – Formal Demand & Statement Regarding-72.html
+a1b2a48273a09dfb2df2a480e01469e35f0437f8786da99619be875191268482  ./messages/20250616-You have reached us outside of business hours-73.html
+50380aa59070845d677ea6be256f1d10a23e464a196eaf5a786499374e765f24  ./messages/20250618-Remediation Works – Start Date Confirmed-62.html
+cd87a585f2b6b2a978a880e720d5fb29318af12d395cafdf9a5c98487d6ac533  ./messages/20250623-Re_Follow-up – Formal Demand & Statement Regarding-52.html
+8acfb314a68793ed0227321229bc0d0a02c06b443b88c099e7cd13336feb114f  ./messages/20250623-Re_Follow-up – Formal Demand & Statement Regarding-53.html
+f68c9dcb4e4deda7a3557f26b0969bd8d7582758e298399f1700c3077a54a55a  ./messages/20250623-Re_Follow-up – Formal Demand & Statement Regarding-54.html
+7862af4baf2eb2da41243bba2296715c798bae50c9edd9983086fa1b4bce90e9  ./messages/20250624-RDRV - Case RT252398 - 33 Camberwell Rd, Hawthorn -57.html
+cf598dc83b97cf73823df673c2b04c7064e8ed04051688ffb32de967272c38a8  ./messages/20250624-Re_Follow-up – Formal Demand & Statement Regarding-55.html
+53fc412a097049d509626fed2c22a5e89d0fee73e338aa762efc16bc36edc2ed  ./messages/20250624-Re_Follow-up – Formal Demand & Statement Regarding-56.html
+93d028fe80256e77a5e9489fcf9c76270cec12b51b3a525ced37d913b31c7ffa  ./messages/20250624-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-58.html
+7ec16fa1a4705581059b2dc910779ddd1dd111139d40c9f31d99058533699f2e  ./messages/20250624-Receipt of payment for 1803_243 Franklin Street, M-59.html
+a15c07689e67a4339b9e73989cac64812124da4e8f0e07c6a7d9ecdd3545d864  ./messages/20250624-Residential Tenancies Dispute Submission for RT252-60.html
+05413b773fe583c4f739b941b49006abfa0fe7073c5227ad867ad9e84b5ad1ec  ./messages/20250624-VCAT RDRV account email verification code-61.html
+c588a18003376ac76c00d9f7288f92ef8972328afbac7877c4567dcaa1ffbc0c  ./messages/20250624-You have reached us outside of business hours-51.html
+a6cab7c20f26a309497678befa120065d1a001cb921419917a5c192bd2a80b8a  ./messages/20250625-RDRV - Case RT252398 - 33 Camberwell Rd, Hawthorn -25.html
+6ab4cb3b8f161be3ddb0500384f1a20bc0ab742e1d3057f0aade50aa2d20bb4a  ./messages/20250625-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-26.html
+b9eecf23b51b5e5389e475f97adf17891a2871d41ee3d7d934150af92c74f388  ./messages/20250625-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-27.html
+a60cecda57d5d88543e9f51df4f018eaa7da5605b3f7e9a8d008a604220c1f29  ./messages/20250626-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-28.html
+81b1366cc1aa7c1ba70dc7f64dbd9295fd685330d77b5da9149bc40ee9d9e6e5  ./messages/20250626-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-29.html
+2e326eaf0a4c59d0e26192c231d525089ff0616fd0339642cc85c0fd547c2be8  ./messages/20250626-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-30.html
+a2c8f8317a5e480e12654662b9284efc0a084c47f0d6ef2bc0a5879533261676  ./messages/20250627-RDRV Order - RT252398 CMS_0014256123-48.html
+eb7eff9dbdd6bb6a780e7a80b6a6e451dfe00a775c36510f1c2d6fd7a46f82cd  ./messages/20250627-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-31.html
+7a28ff4f9cbd1f0b0cf5d3238f38ca174f60b2dba80c5bcf8cdddf55693f0b59  ./messages/20250627-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-32.html
+7af23c3f4e51a65d306180703e6d7cf9945b6444ffe8fdaaf2f0f530ced41e05  ./messages/20250627-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-50.html
+9f5e2c90c1b9753eae0044dc4d7ed4205ead106554973b48e6ed6388bf267e0b  ./messages/20250627-Update to RT252398 CMS_0014256122-49.html
+7631f486d56f90d44d8993a5358aa4f8f98b5a4a96ccb71a266637a1c1960108  ./messages/20250627-VCAT RDRV account email verification code-47.html
+70e0862d92d79be276f57dccfe2116143027ba773f987297a6bc1c6b3e81ba0d  ./messages/20250701-Areal monthly after-hours trades list update-45.html
+69efaa42422af9774ec46fa02233789d43c52a38eb5cd54d0a51e885bab0b1c0  ./messages/20250701-Areal monthly after-hours trades list update-46.html
+1ece901fa16e58485a3bb1813213ac06b1cca295d6137dd2a900333a7a47edc6  ./messages/20250701-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-33.html
+b9e0d850d00a7d0d0e62e8b82eabd91d0a98ca931808ab7e07fe98650a6caa97  ./messages/20250701-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-34.html
+b8ae569e0e06ecbfc581aa8a6f1b65a9f7f9b978138993fc9eaf5a7027ab111a  ./messages/20250701-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-35.html
+e98cb8fb642104b0b935783d1f35ae8e15a6c84ac1a3d9858559ca8d8d55f05d  ./messages/20250703-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-36.html
+cdf969f5e6f500a001a580520496b89d9df476c0f937093a3f65673656d8d47e  ./messages/20250703-You have reached us outside of business hours-44.html
+cabc1c5b4bf31fad6be3bc2e8ee38bab9961a3338da5173691a6918fafd5a933  ./messages/20250704-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-37.html
+e398dec6651f86f3369cc0d1cef2b729f2593fa1d4c82c2153a23d767de69333  ./messages/20250704-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-38.html
+4370d8561445acbbcacad96953c35227f309d058d984e6b286290e0920a135c7  ./messages/20250704-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-39.html
+32b77bff3e18168e9f673272fd0f87936a30496fdb5e2b9ae285051c3656894e  ./messages/20250704-You have reached us outside of business hours-43.html
+eb7e6eef097702371c038a1523dc7a54ca89884a189653f67898ea685852a84c  ./messages/20250707-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-40.html
+0507a299a12ed9ef3309d6d2a38e6c1d38e6b63e31ced41cad9133f8b507eb5d  ./messages/20250709-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-41.html
+848355187ee9b4f776230861f3d062f52992dc1d67d701584c61f4ff7bdeecb1  ./messages/20250711-Notice to vacate - 1803_243 Franklin Street, Melbo-24.html
+894735b0c8bf23c64e6e470cf0305f293f3448d5fff1c938905116522ece53e2  ./messages/20250711-Re_RDRV - Case RT252398 - 33 Camberwell Rd, Hawtho-42.html
+71bdcc201afa9169003c36bd4d011535214f478969be2cbb5108bb793535e36e  ./messages/20250711-Vacating instructions - 1803_243 Franklin Street, -23.html
+4d91a77cbeffb4fa583c77a80a2fb017970db5b440f68f699d418c5c83b12f28  ./messages/20250714-VCAT Application R202518214_00 – Challenge to Noti-5.html
+324383ab1c852c450c578e71fd88838fa0644dc1622bf74e7c4bd1777bd966de  ./messages/20250714-VCAT RDRV account email verification code-22.html
+ab8414add0239dcba7cd7195659aa548922cc21fac32cfe7d50762fcfae1811f  ./messages/20250714-VCAT Residential Tenancies Hub - Please confirm yo-21.html
+d839c3cd08ff8eb07788d2abd18e26e44b5053d2610f8a3d8643976934f2f090  ./messages/20250714-VCAT has opened a case R202518214_00 about  243 Fr-20.html
+82f772f0af1641b85f736011ccbf4865998e26dcaa2001ab6f396b768605eba3  ./messages/20250714-You have reached us outside of business hours-19.html
+fcc23ad2021b551fc049a6256ff34ed2bb01bdf3020c8e0f784f60ee497bf1f2  ./messages/20250715-Automated response - VCAT Residential Tenancies-14.html
+f4f548c7054b2ae7845477853b962bdb959df2dc912cefc573bcad356d625298  ./messages/20250715-Automated response - VCAT Residential Tenancies-15.html
+83acbf1c5706f1abf174d1063141befd727951f3d15d72d4b96057bba3663393  ./messages/20250715-Fwd_ VCAT Application R202518214_00 – Challenge to-7.html
+1d5f4debae19066661186d8aff4473e3c8d7bb29b726c108a458e00738257df1  ./messages/20250715-Re_Your VCAT application_ more information needed--17.html
+4db075e183853057a49b136f92b348dd75baac96994cc3357e41e35c5d7a605d  ./messages/20250715-VCAT RDRV account email verification code-18.html
+ce45d5e722e03db06901a89d8688acfdea202d1bfe71af9c923895635b301ac3  ./messages/20250715-Your VCAT application_ more information needed- VC-16.html
+175df0513568f7ae44bf491603ed39374d4557f60001bcf5ea0c36d6d0c51c0b  ./messages/20250717-VCAT RDRV account email verification code-13.html
+a888c309c2ddf915c764030b834e4f4d18f7a56fa7d03dc9c05d38038f5a487e  ./messages/20250721-VCAT Application – Possession of Property (Ref_ R2-12.html
+5ff8b9a9180eb45cc6e6e325bfc49ca2cde86a69053a881371cb4bd7f34590d8  ./messages/20250721-VCAT has opened a case R202518589_00 about  1803_2-11.html
+35b1c478336387cfd15e20cd5aafcdfe66523b70ce4c28c943afe45d5e69e707  ./messages/20250722-Hearing scheduled for R202518589_00 1803_243 Frank-9.html
+4eec51578514302383906def58712a4b2c492143d6876c696da4e5ddc5b40164  ./messages/20250722-Re_VCAT Application R202518214_00 – Challenge to N-8.html
+7d7e5c0a79527aa0ba03d5c1d2958a6a29295681b98238da8732ae226db3884c  ./messages/20250722-VCAT order made about R202518214_00 243 Franklin S-10.html
+3c7e2d295880c2683eb1977cb0989047a4e7cfb8436f933d96946af01b696952  ./messages/20250723-VCAT RDRV account email verification code-1.html
+dbf33fafb5c0e908776581df84dad2b8d9b012d32f1b8e3389c813dda70ef534  ./messages/20250723-VCAT RDRV account email verification code-2.html
+f33f5be8a223d95a73565e665316d646de667ee5727128926b308468ab7dd718  ./messages/20250723-VCAT RDRV account email verification code-3.html
+347db308fe1b7b3001ca96c9dd5c0256ae1cd1118b5e29b69fb1347d0e85a998  ./messages/20250723-VCAT order made about R202518589_00 1803_243 Frank-4.html
+d07be492859c82f736f2fc4bd076e94d8e15082f4526f9a97f797ba84086b0de  ./messages/20250724-VCAT evidence link R202518589 about 1803_243 Frank-112.html
+e8efd12d839f7c793c7982b1fc94316219c9da3a308f8dec39840f47154b5bba  ./messages/20250725-Receipt of payment for 1803_243 Franklin Street, M-113.html
+6b157bd0542d82cab43aec8847d0bcf181bce28151193adfd167350f187d41c1  ./messages/20250801-Areal monthly after-hours trades list update-114.html
+250ca009903b15d1b07206977915eb72cfcff61364825588b6bfcead1253fbb4  ./messages/20250808-Hearing reminder for 1803_243 Franklin Street, MEL-141.html
+33ab8659a2319374267b824f4146a8d131a93ee5c9def5a8732d1a1f20f0d485  ./messages/20250812-R202518589_00 - Summary of Proof-144.html
+b861e3e22b04bbee9d0ab70f4d949c2e49e5a3599542bdfd734256421b4838f4  ./messages/20250812-Re_R202518589_00 - Summary of Proof-145.html
+cd8552271d270828b956de374b2415a0fd202ac197fed30ecbe27fc29217274b  ./messages/20250815-VCAT order made about R202518589_00 1803_243 Frank-146.html
+eff6f281742afa768f62b68408fa746e8d40fef98bc3dc6acb24b9c33a12868d  ./messages/20250817- Without Prejudice — Franklin 1803_ Settlement Ter-147.html
+07c46efed01f6b8799710ccc09060af1b5cca49535d11df40a5f308410642878  ./messages/20250819-Re_Without Prejudice — Franklin 1803_ Settlement T-148.html
+89706105c9490248f709add71797625d95d01ee2e529546e6111835f5d53c552  ./messages/20250822-1803_243 Franklin Street, Melbourne VIC 3000 - Not-160.html
+ff60853dba08ed1850f2827c1ca56d75e89505b5574370f2d4b40d7affa2bf61  ./messages/20250827-Receipt of payment for 1803_243 Franklin Street, M-161.html
+bf90b8114b4d982b698a89ea41d5d58c28879ffab5e3b50be4fd253dbeed38e6  ./messages/20250828-Re_1803_243 Franklin Street, Melbourne VIC 3000 - -162.html
+0874aa9c0f460e0c9c7510a6d050d6ffbfeaee8661e124e8cc0c2deacd540a43  ./messages/20250901-Areal monthly after-hours trades list update-163.html
+989725924011f1116383730fd9f52258c9a392340f85141fe4e29755a53aae9d  ./messages/20250902-Re_1803_243 Franklin Street, Melbourne VIC 3000 - -164.html
+00bd340692870f108c483b2343c6deb852c7d8f8462eb3fbaa5e38b7a3b01ab2  ./messages/20250904-1803_243 Franklin Street - Access & Co-Operation R-169.html
+bdb28b2ba050b083019e4fe93aeb15a4e33343f6130410ff7b9cb5a0d89823de  ./messages/20250904-Re_1803_243 Franklin Street - Access & Co-Operatio-170.html
+c6b71077058272f1a57e4568a9b8787e5b3b3ee943be0681a07a702e1bad3687  ./messages/20250904-Re_1803_243 Franklin Street - Access & Co-Operatio-171.html
+3ccfea88669edf0d2cd4c6ed20aa3b5a52fe508de5b791bd115fc71b62af84eb  ./messages/20250904-You have reached us outside of business hours-167.html
+1325076caac35d131ca5b2c49b73d64131c2ef49252d4db83a1ebbb71f2a752b  ./messages/20250905-Re_1803_243 Franklin Street - Access & Co-Operatio-172.html
+039c53a2868abc93f5ec87926fcf52022aff143a0956fb87fd97c384a7039043  ./messages/20250905-Re_1803_243 Franklin Street - Access & Co-Operatio-173.html
+7d081766e1ff49b85439c60e3eaaf2145e64d0c001052de5d9b6c00940590679  ./messages/20250905-Re_1803_243 Franklin Street - Access & Co-Operatio-174.html
+dc2bea089fdeeb6db3189646ea5a4d6497ee96e1a87650ea1585a07120a23301  ./messages/20250905-You have reached us outside of business hours-175.html
+ac3b97c5916d986e37120ee0adf92a2a393bbfe014fb6722e56fa7041c5563a4  ./messages/20250909-Re_1803_243 Franklin Street - Access & Co-Operatio-176.html
+949d14e914f97a4f3802fb3de9e5f091848d2a7377dda7757ba1ee511a713fd6  ./messages/20250916-Re_1803_243 Franklin Street - Access & Co-Operatio-177.html
+ece46d88f3628602d36041da1229f5f585ada26d12f2b9f344ed08c5e1e19c56  ./messages/20250916-You have reached us outside of business hours-178.html
+810147467461b8b18a6599f4844643fa2a9326117020556ffbd1e876bfb8f582  ./messages/20250930-Receipt of payment for 1803_243 Franklin Street, M-179.html
+7eb222177b300425db856dc69ef0394b38763ab9448decb5b1e87346afe7def0  ./messages/20251002-Areal monthly after-hours trades list update-180.html
+5504c44086c6b68fcd3c74e4006cf6dac1bde3bab0f5ca0ab4f85bc8f0ec93c4  ./messages/Attachments-1/Receipt # 85835.pdf
+a3bd4b3f10d2f2bd90f7fce4b2088d7de85a04f9e1c8e452e3bd2d8d3669ec52  ./messages/Attachments-10/Receipt # 89393.pdf
+64cc184a97182db117d9b770eb753692b293d5761e6972c6222d25a365f2e01c  ./messages/Attachments-11/Formal_Demand_Letter_Chawakorn.pdf
+96bdd9fb80cbfad954e17c400d43b6ae4b9cc21e537ed1e131305ee51f91259c  ./messages/Attachments-11/Tenant_Statement_Chawakorn.pdf
+74d26d9f06c00c3d5c4534b50419aa47d62f9241437810731d725bfc01eb90c1  ./messages/Attachments-12/Chawakorn_Response_Repair_Access.pdf
+f1f4cebff5448314307aa8e15e5585ca150da12eae54fa94abff542d7cf73523  ./messages/Attachments-13/Email notification.png
+61b747cc431f92bf2e27945821194e6aef8e5071b57b0c99305f4bd349fc8175  ./messages/Attachments-14/24-06-2025 - Applicant 1 - Application.pdf
+1cb5fdd9d08f7b4dc4371ba461df1fec19585f5b29541f70ec9f21b4642eef61  ./messages/Attachments-15/Receipt # 90497.pdf
+a999c7d93bc888b1fde70b41ab8dc955121f827578cf0c1333685e7be8afa7e0  ./messages/Attachments-16/Screenshot.png
+ca4f46af363c81c8a54732a7a5d2a00de81da1b54fc6a3656408d7a54d8815c4  ./messages/Attachments-17/tax invoice.pdf
+9450c29c59a80e0de400c9d60f62767889dfc0473236601a13e1889af7200f6a  ./messages/Attachments-18/Application for renewal of repairs.docx
+008cda5eba210bcdfee418a858ec75772ea089029b8ab200e6e9a91c95d18ba0  ./messages/Attachments-19/27-06-2025 - Strike out - Consent order - Order f058873a.pdf
+86959ed5985089c697222c4fafa8cd31afa563f597cf88c027b5352e97f2aa2b  ./messages/Attachments-2/Receipt # 87045.pdf
+23ac79d9de61e39396e473c5aed1ebdc94e8ef2734b694cb4dd0dd39ded039a5  ./messages/Attachments-20/AusPost lodgement.pdf
+4b7a6800930cfa9b9740a5483dcbb0a55a6ba04dbf36b054205c70519638294d  ./messages/Attachments-20/Notice of entry 7 July 2025.pdf
+0347cbdd36dd87dad0d447f6852ee4f5b4773e971c433341a4df4a1fe836f2e7  ./messages/Attachments-20/Notice of entry 8 July 2025.pdf
+2a2d904dd0df1506b9d08b8a61d0d6f176f3ac2a0c6a103bdbae5747a42da741  ./messages/Attachments-20/Notice of entry 9 July 2025.pdf
+fac0a4f982f9716704144176ae6b33985a61337128d93e64f60511c813eadacd  ./messages/Attachments-20/Notice of entry lable.pdf
+ca6cb58117b10df3d6b9887b817993d73d1b82b40999a369fee092e5ffdf9287  ./messages/Attachments-21/Exhibit_A_20250616_0437.pdf
+a87d74323d588a2b7d6d9082f13453f96456e84779d80d6b0c26ce6df75fffd9  ./messages/Attachments-21/Exhibit_B_20250616_1152.pdf
+8e668320009765e29c60995c4b2e847dae045dc364c6395a70c2dea858b38169  ./messages/Attachments-21/Exhibit_C_20250623_1505.pdf
+e947b777d91f0abac048a945c95c652e00a4bff54326b0c5a2b1dc9cab2b7f7e  ./messages/Attachments-21/Exhibit_D_20250627_1509.pdf
+301a9230bfbbf7389a21788626849c811d2cc75aecc50af587ff4d3b23bd1bcc  ./messages/Attachments-22/NTE 10-07.pdf
+b000b2200a805bdd4dd78527bb6cbb59002f9e7b86d001ceeb4edbb37db2f252  ./messages/Attachments-22/NTE 11-07.pdf
+e31b41893b44480fe5e27ff0c147b815aea4a2cb61b7ffdc8d9b02e3531257cd  ./messages/Attachments-22/NTE 14-07.pdf
+5f56aadc3c6ae72088a56d038d57c48e1bbd22f8a584abe9fb98a81bc1fc589b  ./messages/Attachments-22/NTE 15-07.pdf
+0fa14b465c9c61975c9eb16d5575853effc551e8278406a763e92b39a154a65e  ./messages/Attachments-22/Reg Post Lodgement Slips.pdf
+cab6d437756b0afed459d079428ab0d1e483442dda10396ccd751a42ccdabc5f  ./messages/Attachments-22/Reg Post Sender Slips.pdf
+7804fd5d3eae11b38766be8f094eadbe50e2d75e4d15212c1fa2ec8299cb4302  ./messages/Attachments-23/Public Liability.pdf
+0732ddd4107342d7b8c66c9b8fa35893e9c633caae8b7b9b40ad6e72d2d41110  ./messages/Attachments-24/Message Thread Franklin Stpdf.pdf
+63a29240530c82adeb143f141001cf25eb4a4173b08dafedb07dbb96388dc99b  ./messages/Attachments-24/NOTICE TO VACATE U1803 243 FRANKLIN ST.pdf
+38f4b4ad9003b8f2599d7230027c5ba3940cf2b3a2d0d1f5b5c867edd4210787  ./messages/Attachments-25/Move out guide & tips to get your bond back.docx
+ebc71f16fc999fa779ce0136aa5fcc403c67de72e52a93c8a62e5134fae24131  ./messages/Attachments-25/Vacate Cleaning Guide.docx
+63a29240530c82adeb143f141001cf25eb4a4173b08dafedb07dbb96388dc99b  ./messages/Attachments-26/NOTICE TO VACATE U1803 243 FRANKLIN ST.pdf
+8098239e4ab261b4fd43f923e228a2968f7bf9a3bf1745673f1afb48bfcc2f71  ./messages/Attachments-26/VCAT Application R202518214:00 – Notice to Vacate Challenge.pdf
+63a29240530c82adeb143f141001cf25eb4a4173b08dafedb07dbb96388dc99b  ./messages/Attachments-27/NOTICE TO VACATE U1803 243 FRANKLIN ST.pdf
+8098239e4ab261b4fd43f923e228a2968f7bf9a3bf1745673f1afb48bfcc2f71  ./messages/Attachments-27/VCAT Application R202518214:00 – Notice to Vacate Challenge.pdf
+63a29240530c82adeb143f141001cf25eb4a4173b08dafedb07dbb96388dc99b  ./messages/Attachments-28/NOTICE TO VACATE U1803 243 FRANKLIN ST.pdf
+8098239e4ab261b4fd43f923e228a2968f7bf9a3bf1745673f1afb48bfcc2f71  ./messages/Attachments-28/VCAT Application R202518214_00 – Notice to Vacate Challenge.pdf
+63a29240530c82adeb143f141001cf25eb4a4173b08dafedb07dbb96388dc99b  ./messages/Attachments-29/NOTICE TO VACATE U1803 243 FRANKLIN ST.pdf
+cdc8658c113e3bb661d71f73b93f9e828fc28dfb5f8add763bf6fdc82f5df96e  ./messages/Attachments-29/VCAT APPLICATION - POSSESSION.pdf
+c22dcd50c513d1a2bb1c4e470c78b81084c9734e45e532a0a3d1981cdf580c2c  ./messages/Attachments-3/IMG_0548.jpeg
+ca8a66d94ee8514d1e4bd201a841c671f544b117367f2e8481dc0ef2ff8ee7db  ./messages/Attachments-3/IMG_0549.jpeg
+6df3aa71fc5c23afa67c73cc83f706e7159fd0afb9facaea4130d933c99c7065  ./messages/Attachments-3/IMG_0551.jpeg
+613d752fc4f92156b82e581850c81804cd5beb55be9abd812fa4779c134a3a95  ./messages/Attachments-3/IMG_0552.jpeg
+5d1399a62a594efb055cdda13832357b59a5c8d4558009568a08c51bc838c60b  ./messages/Attachments-3/IMG_0553.jpeg
+c9f381ba2c7e7e2dc8f8e02a27ab77651c387c5d94687799352cb3eb8b7d3c67  ./messages/Attachments-30/order_194615752283.pdf
+e5e2b5f3872cc43fbe9028f924897678f021a7136af08566c3bb318c009285a7  ./messages/Attachments-31/Receipt # 91716.pdf
+0f8dc752d6c6fc5db6fef9af3fd5386693d99612eff5b05c3425726ba82753e1  ./messages/Attachments-32/VCAT R202518589.00 Summary of proof.pdf
+63a29240530c82adeb143f141001cf25eb4a4173b08dafedb07dbb96388dc99b  ./messages/Attachments-33/NOTICE TO VACATE U1803 243 FRANKLIN ST.pdf
+56d520b50dc9e60fc9f160625ca29091a5a1a9d3be8ce0c761aff68814ed5d88  ./messages/Attachments-33/Notice to vacate - 1803:243 Franklin Street, Melbourne VIC 3000.pdf
+faa5538cc573dd6548994bc2cfc6e3b0f86d720b2658fc348b0cdde68c4ce652  ./messages/Attachments-33/Screenshot 2025-08-17 at 04.24.45.png
+95a1f7da417925139c3fa634b293df983b1c96ecdc39c1e3dfeb8cf22edf7d8f  ./messages/Attachments-33/order_194930558979.pdf (SECURED).pdf
+448d919d58282b6eb0f8fc3cc609056b1b04229622ca0efc416089aecd8d7990  ./messages/Attachments-34/FIXD investigation report.pdf
+0576229664bc6c03f4e50e0e636f631b88d1709376a5052a41654e03470ce653  ./messages/Attachments-34/Notice of Entry (combined).pdf
+478650433d10ae46e7d5bb116d2956140a49125d7225365d6230af48fb5f3824  ./messages/Attachments-34/Reg post receipt.pdf
+71393a80433f8961b0a16792aac28171732f955449b22c0f4aa9b4d259d7ad60  ./messages/Attachments-35/Receipt # 92863.pdf
+43aabe9684674d3d3a6b1c44aa5fde047c6754199892c0b237ae417ad6654ada  ./messages/Attachments-36/Email communication.png
+0576229664bc6c03f4e50e0e636f631b88d1709376a5052a41654e03470ce653  ./messages/Attachments-36/Notice of Entry (combined).pdf
+ddf91dce1fedb71df423dbcb21330b00339950e904455847a40b11f08f3769b5  ./messages/Attachments-36/Onsite contact.png
+81ef504e76bf6ecd0b7f6a19d74c357bfaf779202a1b9612eafcea90c980a4a1  ./messages/Attachments-36/Scope of Work.png
+0732ddd4107342d7b8c66c9b8fa35893e9c633caae8b7b9b40ad6e72d2d41110  ./messages/Attachments-37/Message Thread Franklin Stpdf.pdf
+255fb2829d66daffda2001c90d1a5b1015856d146fbb24c7e1d1f4f43e499d6e  ./messages/Attachments-38/CAV screenshot.png
+448d919d58282b6eb0f8fc3cc609056b1b04229622ca0efc416089aecd8d7990  ./messages/Attachments-38/FIXD investigation report.pdf
+b4b007f1dbc2f2fbf59e42690583bb7942e8aaed50536651dd2f24845c7c3cfe  ./messages/Attachments-38/Notice to Entry (17 - 22 Sep).pdf
+377227b325c45e5be525b6d265580667a60aaaf7a99e89bc61359609ee3deca0  ./messages/Attachments-38/Registered post receipt.pdf
+36f45a6334e9e709550bbe5cf3810350e8b4c1214c30bb2aff216f5442561d73  ./messages/Attachments-39/Receipt # 94202.pdf
+c22dcd50c513d1a2bb1c4e470c78b81084c9734e45e532a0a3d1981cdf580c2c  ./messages/Attachments-4/IMG_0548.jpeg
+ca8a66d94ee8514d1e4bd201a841c671f544b117367f2e8481dc0ef2ff8ee7db  ./messages/Attachments-4/IMG_0549.jpeg
+6df3aa71fc5c23afa67c73cc83f706e7159fd0afb9facaea4130d933c99c7065  ./messages/Attachments-4/IMG_0551.jpeg
+613d752fc4f92156b82e581850c81804cd5beb55be9abd812fa4779c134a3a95  ./messages/Attachments-4/IMG_0552.jpeg
+5d1399a62a594efb055cdda13832357b59a5c8d4558009568a08c51bc838c60b  ./messages/Attachments-4/IMG_0553.jpeg
+1c43eca82d9fba588537db0f0e147aa30bed9df1095daa0cf1ed4353c40c0e6d  ./messages/Attachments-5/IMG_0726.jpeg
+05bfc26640fb325d841826d490557b5f73d70157f8ed770be54a8edbf9611f06  ./messages/Attachments-5/IMG_0728.jpeg
+5cee6dfa4017a94982412d80a5ef538ecbecaa38bd7b52b05156621e07e9caff  ./messages/Attachments-5/IMG_0729.jpeg
+5a73dc7f4ad0403d3668ec408b8dfcbbc8f47f01adeb75033f744cefd7f03b4a  ./messages/Attachments-6/IMG_0804.jpeg
+a8bc1f827ecf42606c82ac3495c89a050411bcc09213e61942c3e4c63026d9b9  ./messages/Attachments-6/IMG_0805.jpeg
+3d3d27bae54198621a16ff259449335313e2eb0ff2db9c829c9415a9440bc916  ./messages/Attachments-6/IMG_0807.jpeg
+f46bc25014d35b505b4998c659ffae09c5a03ecc4c01481cd9605c70737ac063  ./messages/Attachments-7/Receipt # 88184.pdf
+fe7f3f37da56293427d2ea445c7ba3de666517e6762ac9ce51e3de30f88d94ec  ./messages/Attachments-8/IMG_0881.png
+ec9463d4b82fc4c7530a496ed542e354c448b259d27e66ffd3bd1ce9ff43cdbb  ./messages/Attachments-8/IMG_0886.jpeg
+312fb449c58ef053ec47eddf3dff664236fc39d3c973a2adf009bf951c85f3ee  ./messages/Attachments-8/IMG_0887.jpeg
+ee9c8d94dc52eb0213089d9443ae38761287bb4dca6ac15821d73c4946dba6df  ./messages/Attachments-8/IMG_0888.jpeg
+c3557e97f904c39f2772edead53017471fadbddf7dbf8bbe804fa8dd1e7dbe9e  ./messages/Attachments-9/S__19816486_0.jpg
+073a31afc5aa1d7e08667a9390e35f1da18e4774f49b574b3c3b546edef420b0  ./messages/Attachments/Emergency Maintenance Trades Contact List Hawthorn.pdf
