@@ -1,22 +1,4 @@
-81377002c736dd5c76e3498d0bbaa66b75ed4c01058e4454e1d66ac80d525303  ./.codacy/.gitignore
-a833e2b03af5150491ff490cedb5bdff901ba7d4a28924c811e6a936b9399eed  ./.codacy/cli-config.yaml
-1bb82234e74e5385ae6a6e93cb61cbc3356fdffdeb36f907686b88679c0cd82c  ./.codacy/cli.sh
-4dc2f9d12386b88f004f73b8685f2d316f9b92746087ef5c6ebbd569a9fc4cc9  ./.codacy/codacy.yaml
-ba43f33d1007c17b7596e6f9c3c7a06711df4fad7a4ecfa37d381e3a372c58ae  ./.codacy/tools-configs/analysis_options.yaml
-d2061893501f1e425dd00dc8028f4bf0ee1bac705f60bdd3328c853d65b5dd47  ./.codacy/tools-configs/eslint.config.mjs
-bafc80490a7688ac32ca6daf37cc5e5b45acab8483ce48b194852766b09b82e1  ./.codacy/tools-configs/languages-config.yaml
-22f70f24bfb7498aed518653e08f7b861ef4f7c35380732bd320a7a3d732dc39  ./.codacy/tools-configs/lizard.yaml
-e8db445dedb9916082f26dd7fbff172eac028df481daa9d1eb07f54c2cc368dd  ./.codacy/tools-configs/pylint.rc
-33b1766d160328e525376212af104820049b93460598452a0874493e598a6a6c  ./.codacy/tools-configs/revive.toml
-20a0d668f8998bc167b1b23e798f5efbdf29dc8ea016adda0115b67d07cfa512  ./.codacy/tools-configs/ruleset.xml
-f93625b3743d00fa26dc294a303d2f606c0d2e6906d60915b57a500d2407617f  ./.codacy/tools-configs/semgrep.yaml
-11f651209bdd9f9dad62d567f43ff615ab5b1d099f9eb7c4212f8549fbe7b1b3  ./.codacy/tools-configs/trivy.yaml
-6fb3299bbc1d81dde167e3010e123fa94041b8ef85e82c0a8669eb42ca18edbf  ./.github/instructions/codacy.instructions.md
-9d713a04935c6e8d98cc7686aab2ce63b45f9ee78229969f4596d48906d74e36  ./.gitignore
-ce7270a7102e9f0cc874c55c1cd3afd81c31b121c2e9c1b1e3c99234346233cf  ./all_non_tmp_sha256.csv
-1d60e25efb0ba4ba6f9f3494230e595b6602d65efa713e9612ebe16abc116389  ./all_non_tmp_sha256.txt
-395702aa7ba40c5bb64da2dc8fb0a15138beb21c169221ac37e7bffd7f0123c9  ./compute_shas.sh
-e77c0d36f672d1782fb13856fbaf67930b6f53f963c587f59ba5e95320be2526  ./index.html
+
 c5051f95342f779a38bd52d8cdc9da4728eb702f82881aa720e34ca045cf3f55  ./messages/20250207-Welcome to Areal Property – Your New Property Mana-111.html
 98df8b015b2e707d4aaf640de9dd24fde6485786246760109a03a2354b3c63e9  ./messages/20250225-Receipt of payment for 1803_243 Franklin St, Melbo-110.html
 ece726c2a8505de006d12e4b37592c28c2b6c83de7dce31029045c6f47cff7f7  ./messages/20250325-Areal monthly after-hours trades list update-109.html

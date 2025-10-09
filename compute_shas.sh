@@ -1,7 +1,7 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 # compute_shas.sh
 # Compute SHA-256 for all files excluding common temporary/junk files
-# Writes results to all_non_tmp_sha256.txt and all_non_tmp_sha256.csv in the repository root.
+# Writes results to all_non_tmp_sha256.txt, all_non_tmp_sha256.csv and a small JSON summary.
 
 set -euo pipefail
 
@@ -20,44 +20,48 @@ EXCLUDE_NAMES=("*.tmp" "*~" ".DS_Store" "*.swp" "*.bak" "*.log")
 EXCLUDE_PATHS=("*/__pycache__/*" "*/node_modules/*" "*/.git/*")
 
 # Build find exclude expressions
-EXPR=()
+FIND_ARGS=(.)
 for p in "${EXCLUDE_PATHS[@]}"; do
-  EXPR+=( -not -path "$p" )
+  FIND_ARGS+=( -not -path "$p" )
 done
 for n in "${EXCLUDE_NAMES[@]}"; do
-  EXPR+=( -not -name "$n" )
+  FIND_ARGS+=( -not -name "$n" )
 done
+FIND_ARGS+=( -type f -print0 )
 
-# Find files, sort, compute sha256 and sizes
-# Use shasum -a 256 (macOS) and stat -f%z for size (macOS). Fall back to stat -c%s on Linux if needed.
-
-is_linux=false
+# Detect stat flavor
+IS_LINUX=false
 if stat --version >/dev/null 2>&1; then
-  is_linux=true
+  IS_LINUX=true
 fi
 
 FILES_TMP=$(mktemp)
 trap 'rm -f "$FILES_TMP"' EXIT
 
-eval find . -type f "${EXPR[@]}" -print0 | xargs -0 -I{} sh -c 'printf "%s\n" "{}"' | sort > "$FILES_TMP"
+# Run find and create a sorted newline-separated list
+find "${FIND_ARGS[@]}" | tr '\0' '\n' | sort > "$FILES_TMP"
 
 while IFS= read -r f; do
-  # compute sha256
+  # skip if empty
+  [ -z "$f" ] && continue
+  if [ ! -f "$f" ]; then
+    continue
+  fi
   sha=$(shasum -a 256 "$f" | awk '{print $1}')
-  if $is_linux; then
+  if $IS_LINUX; then
     size=$(stat -c%s "$f")
   else
     size=$(stat -f%z "$f")
   fi
   printf '%s  %s\n' "$sha" "$f" >> "$OUT_TXT"
-  # CSV needs to escape double quotes and wrap path in quotes
-  esc_path=${f//"/""}
+  # escape double quotes in path for CSV
+  esc_path=${f//\"/\"\"}
   printf '%s,"%s",%s\n' "$sha" "$esc_path" "$size" >> "$OUT_CSV"
 done < "$FILES_TMP"
 
-# Summary JSON (basic)
+# Summary JSON
 total=$(wc -l < "$OUT_TXT" | tr -d ' ')
-total_bytes=$(awk '{sum += $3} END {print sum+0}' "$OUT_CSV" | sed -n '1p' || true)
+total_bytes=$(awk -F, 'NR>1{sum += $3} END {print sum+0}' "$OUT_CSV" || true)
 printf '{"files": %s, "total_bytes": %s}\n' "$total" "${total_bytes:-0}" > "$OUT_JSON"
 
 echo "Wrote checksums to $OUT_TXT and CSV to $OUT_CSV"
